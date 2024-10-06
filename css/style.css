@@ -1,0 +1,53 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+/*Nuevo estilo*/
+.movie-container {
+    display: flex;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.movie-details {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.movie-rating {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    color: orange;
+    font-size: 20px;
+    margin: 0 2px;
+}
